@@ -6,6 +6,7 @@ return {
     build = "cd app && npm install",
     ft = { "markdown" },
     keys = {
+      { "<leader>m", "", desc = "Markdown" },
       { "<leader>mp", "<cmd>MarkdownPreview<cr>", desc = "Markdown Preview" },
       { "<leader>ms", "<cmd>MarkdownPreviewStop<cr>", desc = "Markdown Preview Stop" },
     },
